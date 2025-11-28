@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "api-health-check": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["build/index.js"]
+    }
+  }
+}
